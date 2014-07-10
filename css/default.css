@@ -14,6 +14,11 @@ body {
 	font-size: 16px;
 }
 
+a:hover
+{
+	text-decoration: none;
+}
+
 .section
 {
 text-align: center;
@@ -35,14 +40,9 @@ overflow: hidden;
 	opacity: 1;
 }
 
-.imageright{
-	position: relative;
-	left:50%;
-}
-
 .imageleft{
 	position: relative;
-	top:-200px;
+	top:-300px;
 	right:50%;
 	z-index: -1;
 }
@@ -124,7 +124,7 @@ overflow: hidden;
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(102,156,214,1)), color-stop(100%,rgba(36,87,150,1))); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top, rgba(102,156,214,1) 0%,rgba(36,87,150,1) 100%); /* Chrome10+,Safari5.1+ */
 	border-radius: 5px;
-	width: 3.2em;
+	width: 3.3em;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
