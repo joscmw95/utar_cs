@@ -10,7 +10,7 @@ body {
 	font-weight: 300;
 	padding: 0;
 	margin: 0;
-	background-color: #F9F9F9;
+	background-color: #252427;
 	font-size: 16px;
 }
 
@@ -24,8 +24,15 @@ overflow: hidden;
 .section p{
 	opacity: 0;
 }
+
+.notice{
+	opacity: 1;
+	position: relative;
+	top:-250px;
+}
 .titletext{
 	font-size: 2em;
+	opacity: 1;
 }
 
 .imageright{
@@ -131,6 +138,8 @@ overflow: hidden;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+
 @media screen and (max-width: 750px){ 
 	.zero
 	{
