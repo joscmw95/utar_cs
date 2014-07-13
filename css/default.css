@@ -24,6 +24,8 @@ a:hover
 text-align: center;
 padding-top: 50px;
 overflow: hidden;
+width: 100%;
+clear: both;
 }
 
 .section p{
@@ -33,8 +35,8 @@ overflow: hidden;
 .notice{
 	opacity: 1;
 	position: relative;
-	top:-250px;
 }
+
 .titletext{
 	font-size: 2em;
 	opacity: 1;
@@ -51,6 +53,15 @@ overflow: hidden;
 	position: relative;
 	top:500px;
 }
+
+.imagerotate{
+	position: relative;
+	top: 200px;
+	left:20%;
+	transform:rotate(0deg);
+	-webkit-transform:rotate(0deg); /* Opera, Chrome, and Safari */
+}
+
 .zero{
 	position: relative;
 	height: 200px;
@@ -87,6 +98,11 @@ overflow: hidden;
 	z-index: 20;
 }
 
+.sub{
+	position: relative;
+	display: inline-block;
+}
+
 .one{
 	position: relative;
 	z-index: 2;
@@ -108,9 +124,21 @@ overflow: hidden;
 	background: -webkit-linear-gradient(top, rgba(155,155,155,1) 5%,rgba(81,81,81,1) 100%); /* Chrome10+,Safari5.1+ */
 }
 
+.three{
+	color: #111;
+	position: relative;
+	height: 480px;
+	z-index: 2;
+	background: rgb(64,150,238); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(64,150,238,1) 30%, rgba(44,95,165,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,rgba(64,150,238,1)), color-stop(100%,rgba(44,95,165,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(64,150,238,1) 30%,rgba(44,95,165,1) 100%); /* Chrome10+,Safari5.1+ */
+}
+
 .footer{
 	height: 3em;
 	padding-top: 1.5em;
+	padding-bottom: 2em;
 	background-color: #252427;
 	color: #FFF;
 	text-align: center;
