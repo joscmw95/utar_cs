@@ -86,8 +86,9 @@ clear: both;
     z-index: 1;
 }
 
-.zero .text{
-	
+.zero a{
+	text-decoration: none;
+	color: #FFF;
 }
 
 .nav{
