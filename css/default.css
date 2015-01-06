@@ -156,9 +156,9 @@ clear: both;
     transition: all 0.3s ease-in-out;
 }
 
-.mask:hover{
-   opacity: 0;
-   visibility: hidden;
+.block1:hover .mask, .block2:hover .mask, .block3:hover .mask, .block4:hover .mask, .block5:hover .mask, .block6:hover .mask{
+	opacity: 0;
+	visibility: hidden;
 }
 
 
