@@ -34,6 +34,7 @@ clear: both;
 
 .notice{
 	opacity: 1;
+	font-size: 1.25em;
 	position: relative;
 }
 
@@ -54,17 +55,116 @@ clear: both;
 	top:500px;
 }
 
-.imagerotate{
-	position: relative;
-	top: 200px;
-	left:20%;
-	transform:rotate(0deg);
-	-webkit-transform:rotate(0deg); /* Opera, Chrome, and Safari */
+.block{
+	position: absolute;
+	list-style-type: none;
+	height: 750px;
+	margin-left: 8%;
+	width: 100%;
 }
+
+.block1{
+	position: absolute;
+	left: 6%;
+	height: 22.5%;
+	width: 21%;
+	color: dark blue;
+	font-size: 200%;
+	padding-top: 5%;
+	background-color: #FFF;
+	border: solid #324259 5px;
+	border-radius: 10%;
+}
+
+.block2{
+	position: absolute;
+	left: 31%;
+	height: 22.5%;
+	width: 21%;
+	color: dark blue;
+	font-size: 200%;
+	padding-top: 5%;
+	background-color: #FFF;
+	border: solid #324259 5px;
+	border-radius: 10%;
+}
+
+.block3{
+	position: absolute;
+	left: 56%;
+	height: 22.5%;
+	width: 21%;
+	color: dark blue;
+	font-size: 200%;
+	padding-top: 5%;
+	background-color: #FFF;
+	border: solid #324259 5px;
+	border-radius: 10%;
+}
+
+.block4{
+	position: absolute;
+	top: 45.5%;
+	left: 6%;
+	height: 22.5%;
+	width: 21%;
+	color: dark blue;
+	font-size: 200%;
+	padding-top: 5%;
+	background-color: #FFF;
+	border: solid #324259 5px;
+	border-radius: 10%;
+}
+
+.block5{
+	position: absolute;
+	top: 45.5%;
+	left: 31%;
+	height: 22.5%;
+	width: 21%;
+	color: dark blue;
+	font-size: 200%;
+	padding-top: 5%;
+	background-color: #FFF;
+	border: solid #324259 5px;
+	border-radius: 10%;
+}
+
+.block6{
+	position: absolute;
+	top: 45.5%;
+	left: 56%;
+	height: 22.5%;
+	width: 21%;
+	color: dark blue;
+	font-size: 200%;
+	padding-top: 5%;
+	background-color: #FFF;
+	border: solid #324259 5px;
+	border-radius: 10%;
+}
+
+.mask{
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	border: solid #324259 5px;
+	border-radius: 10%;
+    transition: all 0.3s ease-in-out;
+}
+
+.mask:hover{
+   opacity: 0;
+   visibility: hidden;
+}
+
 
 .zero{
 	position: relative;
-	height: 200px;
+	height: 300px;
 	font-weight: 400;
 	color: #FFF;
 	font-size: 3em;
@@ -107,7 +207,17 @@ clear: both;
 .one{
 	position: relative;
 	z-index: 2;
-	height: 480px;
+	height: 850px;
+	background: rgb(254,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(254,255,255,1) 27%, rgba(214,214,214,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(27%,rgba(254,255,255,1)), color-stop(100%,rgba(214,214,214,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(254,255,255,1) 27%,rgba(214,214,214,1) 100%); /*	Chrome10+,Safari5.1+ */ */
+}
+
+.onesmall{
+	position: relative;
+	z-index: 2;
+	height: 550px;
 	background: rgb(254,255,255); /* Old browsers */
 	background: -moz-linear-gradient(top, rgba(254,255,255,1) 27%, rgba(214,214,214,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(27%,rgba(254,255,255,1)), color-stop(100%,rgba(214,214,214,1))); /* Chrome,Safari4+ */
@@ -115,21 +225,10 @@ clear: both;
 }
 
 .two{
-	color: #FFF;
-	position: relative;
-	height: 480px;
-	z-index: 2;
-	background: rgb(155,155,155); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(155,155,155,1) 5%, rgba(81,81,81,1) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,rgba(155,155,155,1)), color-stop(100%,rgba(81,81,81,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, rgba(155,155,155,1) 5%,rgba(81,81,81,1) 100%); /* Chrome10+,Safari5.1+ */
-}
-
-.three{
 	color: #FAFAFA;
 	position: relative;
 	height: 480px;
-	z-index: 2;
+	z-index: 1;
 	background: rgb(64,150,238); /* Old browsers */
 	background: -moz-linear-gradient(top, rgba(64,150,238,1) 30%, rgba(44,95,165,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,rgba(64,150,238,1)), color-stop(100%,rgba(44,95,165,1))); /* Chrome,Safari4+ */
@@ -137,7 +236,7 @@ clear: both;
 }
 
 .footer{
-	height: 3em;
+	height: 4em;
 	padding-top: 1.5em;
 	padding-bottom: 2em;
 	background-color: #252427;
