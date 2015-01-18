@@ -22,7 +22,7 @@ a:hover
 .section
 {
 text-align: center;
-padding-top: 50px;
+padding-top: 3em;
 overflow: hidden;
 width: 100%;
 clear: both;
@@ -134,8 +134,8 @@ clear: both;
 .one{
 	position: relative;
 	z-index: 2;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 3em;
+	padding-bottom: 3em;
 	background: rgb(254,255,255); /* Old browsers */
 	background: -moz-linear-gradient(top, rgba(254,255,255,1) 27%, rgba(214,214,214,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(27%,rgba(254,255,255,1)), color-stop(100%,rgba(214,214,214,1))); /* Chrome,Safari4+ */
@@ -151,8 +151,8 @@ clear: both;
 #blockone{
 	position: relative;
 	z-index: 2;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 3em;
+	padding-bottom: 3em;
 	background: rgb(254,255,255); /* Old browsers */
 	background: -moz-linear-gradient(top, rgba(254,255,255,1) 27%, rgba(214,214,214,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(27%,rgba(254,255,255,1)), color-stop(100%,rgba(214,214,214,1))); /* Chrome,Safari4+ */
@@ -170,8 +170,8 @@ clear: both;
 
 #blocktwo{
 	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 3em;
+	padding-bottom: 3em;
 	overflow: hidden;
 	width: 100%;
 	clear: both;
@@ -189,8 +189,8 @@ clear: both;
 
 #bigblock{
 	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 3em;
+	padding-bottom: 3em;
 	overflow: hidden;
 	width: 100%;
 	clear: both;
@@ -216,8 +216,8 @@ clear: both;
 
 #blockthree{
 	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 3em;
+	padding-bottom: 3em;
 	overflow: hidden;
 	width: 100%;
 	clear: both;
@@ -252,7 +252,6 @@ clear: both;
 }
 
 .footer{
-	height: 4em;
 	padding-top: 1.5em;
 	padding-bottom: 2em;
 	background-color: #252427;
