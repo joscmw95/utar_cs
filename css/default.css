@@ -66,6 +66,16 @@ a:hover
 	margin: 20px 40px;
 }
 
+.blocksnohover{
+	max-width: 95%;
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	border-radius: 15%;
+	margin: 20px 40px;
+}
+
 .blockimages{
 	width: 400px;
 	height: 250px;
@@ -320,10 +330,18 @@ a:hover
 	.blocks{
 		margin: 20px 20px;
 	}
+	
+	.blocksnohover{
+		margin: 20px 20px;
+	}
 }
 
 @media screen and (max-width: 905px){ 
 	.blocks{
+		margin: 20px 5px;
+	}
+	
+	.blocksnohover{
 		margin: 20px 5px;
 	}
 }
