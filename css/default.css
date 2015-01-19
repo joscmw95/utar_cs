@@ -164,10 +164,6 @@ a:hover
 	font-weight: bold;
 }
 
-.ITFairImage{
-	transition: width 0.3s;
-}
-
 .one{
 	position: relative;
 	z-index: 2;
