@@ -329,6 +329,10 @@ a:hover, a:link{
 	font-size: 22px;
 }
 
+.ITFairImage{
+		width: 200px;
+}
+	
 @media screen and (max-width: 1465px){ 
 	.blocks{
 		margin: 20px 20px;
@@ -393,10 +397,25 @@ a:hover, a:link{
 @media screen and (max-width: 500px){ 
 	.imageleft, .imageright{
 		top: -20%;
+	}		
+}
+
+@media screen and (max-width: 430px){ 	
+	.ITFairText{
+		font-size: 15px;
+	}
+	
+	.ITFairImage{
+		width: 50%;
+		height: 50%;
 	}
 	
 	.image{
 		content: url('../image/onebg.png');
+	}
+	
+	.space{
+		font-size: 11px;
 	}
 	
 	#discount{
@@ -405,17 +424,5 @@ a:hover, a:link{
 	
 	#bidding{
 		content: url('../image/bidding.png');
-	}
-		
-}
-
-@media screen and (max-width: 405px){ 	
-	.ITFairText{
-		font-size: 15px;
-	}
-	
-	.ITFairImage{
-		width: 50%;
-		height: 50%;
 	}
 }
