@@ -130,7 +130,7 @@ a:hover, a:link{
 	color: #FFF;
 	vertical-align: center;
 	padding-top: 1.5em;
-	background-image: url('../image/cover0.jpg');
+	background-image: url('../image/cover (big).jpg');
 	background-position:center right; 
 	background-size: 100%;
     text-align: center;
@@ -207,6 +207,10 @@ a:hover, a:link{
 	background-color: #252427;
 	color: #FFF;
 	text-align: center;
+}
+
+.footerlogo{
+	padding-top: 0.75em;
 }
 
 .fbbutton {
@@ -349,6 +353,7 @@ a:hover, a:link{
 	.zero
 	{
 		background-size: 150%;
+		background-image: url('../image/cover.jpg');
 		padding-top: 0.6em;
 		padding-bottom: 1em;
 		height: 100px;
@@ -359,6 +364,7 @@ a:hover, a:link{
 		display: block;
 		margin-top: 5px;
 		position: relative;
+		
 		top: 0;
 	}
 
@@ -388,15 +394,26 @@ a:hover, a:link{
 	.imageleft, .imageright{
 		top: -20%;
 	}
+	
+	.image{
+		content: url('../image/onebg.png');
+	}
+	
+	#discount{
+		content: url('../image/discount.png');
+	}
+	
+	#bidding{
+		content: url('../image/bidding.png');
+	}
+		
 }
 
 @media screen and (max-width: 405px){ 	
 	.ITFairText{
 		font-size: 15px;
 	}
-}
-
-@media screen and (max-width: 363px){ 
+	
 	.ITFairImage{
 		width: 50%;
 		height: 50%;
