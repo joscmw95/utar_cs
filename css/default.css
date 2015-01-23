@@ -6,6 +6,7 @@ html{
 }
 
 body {
+	height: 100%;
 	font-family: 'Open Sans', Arial, Calibri;
 	font-weight: 300;
 	padding: 0;
