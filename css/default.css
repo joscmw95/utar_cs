@@ -421,11 +421,16 @@ a:hover, a:link{
 	
 	#discount{
 		content: url('../image/discount.png');
-		height: 50px;
+		height: 55px;
 	}
 	
 	#bidding{
 		content: url('../image/bidding.png');
 		height: 90px;
+	}
+	
+	#leap{
+		width: 50%;
+		height: 70px;
 	}
 }
