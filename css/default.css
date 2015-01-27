@@ -195,6 +195,11 @@ a:hover, a:link{
 	border-radius: 15px;
 }
 
+.helpvideo{
+	width: 853px;
+	height: 480px;
+}
+	
 .two{
 	color: #FAFAFA;
 	position: relative;
@@ -344,6 +349,12 @@ a:hover, a:link{
 	}
 }
 
+@media screen and (max-width: 1080px){
+	.helpvideo{
+		width: 750px;
+	}
+}
+
 @media screen and (max-width: 905px){ 
 	.blocks{
 		margin: 20px 5px;
@@ -351,6 +362,11 @@ a:hover, a:link{
 	
 	.blocksnohover{
 		margin: 20px 5px;
+	}
+	
+	.helpvideo{
+		width: 550px;
+		height: 430px;
 	}
 }
 
@@ -395,10 +411,21 @@ a:hover, a:link{
 	}
 }
 
+@media screen and (max-width: 700px){ 
+	.helpvideo{
+		width: 98%;
+		height: 320px;
+	}
+}
+
 @media screen and (max-width: 500px){ 
 	.imageleft, .imageright{
 		top: -20%;
 	}		
+	
+	.helpvideo{
+		height: 250px;
+	}
 }
 
 @media screen and (max-width: 430px){
