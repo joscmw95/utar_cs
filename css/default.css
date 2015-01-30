@@ -112,6 +112,7 @@ a:hover, a:link{
 
 .table .center{
 	text-align: center;
+	color: black;
 	font-size: 15px;
 }
 
@@ -209,6 +210,26 @@ a:hover, a:link{
 	background: -moz-linear-gradient(top, rgba(64,150,238,1) 30%, rgba(44,95,165,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,rgba(64,150,238,1)), color-stop(100%,rgba(44,95,165,1))); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top, rgba(64,150,238,1) 30%,rgba(44,95,165,1) 100%); /* Chrome10+,Safari5.1+ */
+}
+
+.companylist{
+		font-size: 26px;
+		font-weight: 300;
+}
+
+.societylogo{
+	width: 200px;
+	height: 80px;
+}
+
+.utarlogo{
+	width: 200px;
+	height: 120px;
+}
+
+.supportlogo{
+	width: 150px;
+	height: 150px;
 }
 
 .footer{
@@ -353,6 +374,10 @@ a:hover, a:link{
 	.helpvideo{
 		width: 750px;
 	}
+	
+	.companylist{
+		font-size: 20px;
+	}
 }
 
 @media screen and (max-width: 905px){ 
@@ -425,6 +450,11 @@ a:hover, a:link{
 	
 	.helpvideo{
 		height: 250px;
+	}
+	
+	.companylist{
+		font-size: 17px;
+		font-weight: 400;
 	}
 }
 
