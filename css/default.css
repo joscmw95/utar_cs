@@ -68,8 +68,7 @@ a:hover, a:link{
 
 .logoblock{
 	display: inline-block;
-	position: relative;
-	margin: 20px 40px;
+	position: relative;	
 }
 
 .blocksnohover{
@@ -108,6 +107,12 @@ a:hover, a:link{
 
 .blocks:hover{
 	box-shadow: 8px 8px 8px 4px #888888;
+}
+
+.companylogo{
+	border-radius: 20px;
+	border: solid 1px black;
+	margin-bottom: 10px;
 }
 
 .schedule{
