@@ -110,6 +110,8 @@ a:hover, a:link{
 }
 
 .companylogo{
+	width: 187.5px;
+	height: 112.5px;
 	border-radius: 20px;
 	border: solid 1px black;
 	margin-bottom: 10px;
@@ -468,6 +470,11 @@ a:hover, a:link{
 	.companylist{
 		font-size: 17px;
 		font-weight: 400;
+	}
+	
+	.companylogo{
+	width: 250px;
+	height: 150px;
 	}
 }
 
