@@ -3,9 +3,15 @@
 
 html{
 	height: 100%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;	
 }
 
-body {
+body {	
 	height: 100%;
 	font-family: 'Open Sans', Arial, Calibri;
 	font-weight: 300;
@@ -15,8 +21,17 @@ body {
 	font-size: 16px;
 }
 
-a:hover, a:link{
-	text-decoration: none;
+p,h1,h2,h3,h4,h5,h6,li,td,article{
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+li{
+	line-height: 20px;
 }
 
 h1{
@@ -29,43 +44,41 @@ h2{
 	line-height: 40px;
 }
 
-li{
+h3{
+	font-size: 32px;
+	font-weight: 100;
+}
+
+h5{
+	font-weight: 100;
+	font-size: 16px;
 	line-height: 20px;
+}
+
+a:hover, a:link{
+	text-decoration: none;
+}
+
+.navbar-header .navbar-brand{
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
 }
 
 .section{
 	text-align: center;
-	padding-top: 3em;
+	padding-top: 2em;
 	overflow: hidden;
 	width: 100%;
 	clear: both;
 }
 
-.section p{
-	opacity: 0;
-}
-
-.notice{
-	opacity: 1;
-	font-size: 1.25em;
-	position: relative;
-}
-
-.titletext{
-	font-size: 2em;
-	opacity: 1;
-}
-
 .imageleft{
 	position: relative;
-	top: -300px;
+	top: -280px;
 	left: 32%;
+	z-index: -1;
 	transition: top 0.3s;
-}
-
-.imagebottom{
-	position: relative;
-	top:500px;
 }
 
 .blocks{
@@ -188,7 +201,7 @@ li{
 .one{
 	position: relative;
 	z-index: 2;
-	padding-top: 3em;
+	padding-top: 2em;
 	padding-bottom: 3em;
 	background: rgb(254,255,255); /* Old browsers */
 	background: -moz-linear-gradient(top, rgba(254,255,255,1) 27%, rgba(214,214,214,1) 100%); /* FF3.6+ */
@@ -208,7 +221,7 @@ li{
 }
 	
 .two{
-	color: #FAFAFA;
+	color: white;
 	position: relative;
 	height: 550px;
 	z-index: 1;
@@ -219,13 +232,13 @@ li{
 }
 
 .companylist{
-		font-size: 26px;
-		font-weight: 300;
+	font-size: 26px;
+	font-weight: 300;
 }
 
 .societylogo{
 	width: 233px;
-	height: 77px;
+	height: 90px;
 	padding: 10px 10px 10px 10px;
 }
 
@@ -241,7 +254,7 @@ li{
 }
 
 .footer{
-	padding-top: 1.5em;
+	padding-top: 1em;
 	padding-bottom: 2em;
 	background-color: #252427;
 	color: #FFF;
@@ -250,30 +263,6 @@ li{
 
 .footerlogo{
 	padding-top: 0.75em;
-}
-
-.fbbutton {
-	margin: 0 auto 0 auto;
-	color: #FFF;
-	background-color: #2257AD;
-	background: -moz-linear-gradient(top, rgba(102,156,214,1) 0%, rgba(36,87,150,1) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(102,156,214,1)), color-stop(100%,rgba(36,87,150,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, rgba(102,156,214,1) 0%,rgba(36,87,150,1) 100%); /* Chrome10+,Safari5.1+ */
-	border-radius: 5px;
-	width: 3.3em;
-	height: 3.3em;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-}
-
-.fbbutton a
-{
-	font-size: 2em;
-	text-decoration: none;
-	color: #FFF;
-	display: block;
-	margin: 0;
-	padding-top: 5px;
-	padding-bottom: 5px;
 }
 
 #blockone{
@@ -415,8 +404,8 @@ li{
 		top: 0;
 	}
 
-	.imageleft, .imageright{
-		top: -40%;
+	.imageleft{
+		top: -35%;
 	}
 
 	.section .image{
@@ -445,8 +434,8 @@ li{
 }
 
 @media screen and (max-width: 500px){ 
-	.imageleft, .imageright{
-		top: -20%;
+	.imageleft{
+		top: -15%;
 	}		
 	
 	.helpvideo{
