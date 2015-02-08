@@ -107,17 +107,6 @@ li{
 	border: 1.5px solid black;
 }
 
-.blockunavail{
-	max-width: 100%;
-	height: auto;
-	width: 400px;
-	height: 140px;
-	border-radius: 15%;
-	background-color: white;
-	border: solid black 1.5px;
-	padding-top: 107px;
-}
-
 .blocks:hover{
 	box-shadow: 8px 8px 8px 4px #888888;
 }
@@ -157,9 +146,9 @@ li{
 	font-weight: 400;
 	color: #FFF;
 	vertical-align: center;
-	padding-top: 1.5em;
+	padding-top: 2em;
 	background-image: url('../image/cover (big).jpg');
-	background-position:center right; 
+	background-position: center; 
 	background-size: 100%;
     text-align: center;
     font-size: 4em;
@@ -181,6 +170,11 @@ li{
 .preplistdiv{
 	padding-left: 16%;
 	padding-right: 2%;
+}
+
+.videodiv{
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .ITFairText{
@@ -377,11 +371,7 @@ li{
 }
 
 @media screen and (max-width: 1465px){ 
-	.blocks{
-		margin: 20px 20px;
-	}
-	
-	.blocksnohover{
+	.blocks, .blocksnohover{
 		margin: 20px 20px;
 	}
 }
@@ -397,11 +387,7 @@ li{
 }
 
 @media screen and (max-width: 905px){ 
-	.blocks{
-		margin: 20px 5px;
-	}
-	
-	.blocksnohover{
+	.blocks, .blocksnohover{
 		margin: 20px 5px;
 	}
 	
@@ -500,6 +486,10 @@ li{
 	.blockimages, .blockimagesborder{
 		width: 270px;
 		height: 200px;
+	}
+	
+	.blocks, .blocksnohover{
+		margin: 10px;
 	}
 	
 	#discount{
